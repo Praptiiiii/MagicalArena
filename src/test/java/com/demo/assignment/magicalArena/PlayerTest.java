@@ -5,10 +5,12 @@ import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
-
 import junit.*;
 
 
+/**
+ * Unit tests for the Player class.
+ */
 public class PlayerTest {
     @Test
     public void testPlayerInitialization() {
@@ -36,4 +38,3 @@ public class PlayerTest {
         assertFalse(player.isAlive());
     }
 }
-

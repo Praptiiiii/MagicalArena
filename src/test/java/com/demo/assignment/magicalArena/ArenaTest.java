@@ -3,7 +3,9 @@ package com.demo.assignment.magicalArena;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
-
+/**
+ * Unit tests for the Arena class.
+ */
 public class ArenaTest {
     @Test
     public void testFight() {
